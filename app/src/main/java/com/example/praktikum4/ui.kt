@@ -62,7 +62,7 @@ fun ActivitasPertama(modifier: Modifier){
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
             ) {
-                val gambar = painterResource(id = R.drawable.reportdaily)
+                val gambar = painterResource(id = R.drawable.logoumy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -104,7 +104,7 @@ fun ActivitasPertama(modifier: Modifier){
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
             ){
-                val gambar = painterResource(id = R.drawable.reportdaily)
+                val gambar = painterResource(id = R.drawable.logoumy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -151,7 +151,7 @@ fun ActivitasPertama(modifier: Modifier){
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
             ){
-                val gambar = painterResource(id = R.drawable.reportdaily)
+                val gambar = painterResource(id = R.drawable.logoumy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
