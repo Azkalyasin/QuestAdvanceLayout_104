@@ -51,13 +51,17 @@ fun ActivitasPertama(modifier: Modifier){
 
         Card(
             modifier = Modifier
+                .height(160.dp)
                 .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
         ){
-            Row() {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp)
+            ) {
                 val gambar = painterResource(id = R.drawable.reportdaily)
                 Image(
                     painter = gambar,
@@ -89,6 +93,7 @@ fun ActivitasPertama(modifier: Modifier){
 
         Card(
             modifier = Modifier
+                .height(160.dp)
                 .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
@@ -135,6 +140,7 @@ fun ActivitasPertama(modifier: Modifier){
         Spacer(modifier = Modifier.height(height = 25.dp))
         Card(
             modifier = Modifier
+                .height(160.dp)
                 .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
