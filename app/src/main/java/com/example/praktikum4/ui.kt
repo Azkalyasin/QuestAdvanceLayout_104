@@ -141,7 +141,12 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.Red
             )
         ){
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp)
+            ){
 
+            }
         }
 
         Box(
