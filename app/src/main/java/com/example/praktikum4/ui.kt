@@ -105,6 +105,7 @@ fun ActivitasPertama(modifier: Modifier){
                         .padding(all = 5.dp)
                 )
             }
+            Spacer(modifier = Modifier.width(width = 30.dp))
         }
         Box(
             modifier = Modifier
